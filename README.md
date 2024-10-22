@@ -24,7 +24,7 @@ temporalcli                           latest    afca63d88e69   19 minutes ago   
 From the command line it is then possible to run the temporal and tcld command lines using the image.
 
 ```
-➜  temporal-clis git:(main) docker run temporalcli bash -c 'TEMPORAL_CLOUD_API_KEY=eyJhb.....<API key generated via the Temporal Cloud UI> tcld namespace list'
+$ docker run temporalcli bash -c 'TEMPORAL_CLOUD_API_KEY=eyJhb.....<API key generated via the Temporal Cloud UI> tcld namespace list'
 {
 	"namespaces": [
 		"backup.sdvdw",
